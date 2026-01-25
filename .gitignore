@@ -83,7 +83,6 @@ wandb/
 Thumbs.db
 
 # Large evaluation results
-results/
 image/
 mermaid/
 

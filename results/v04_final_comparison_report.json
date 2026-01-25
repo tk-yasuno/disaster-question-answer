@@ -1,0 +1,70 @@
+{
+  "final_comparison_report": {
+    "comparison_date": "2026-01-26",
+    "models_compared": 4,
+    "winner": "v0.4 BERT+Bi-LSTM (500 samples)",
+    "key_achievements": {
+      "highest_end_accuracy": "70.4% (v0.4 BERT+Bi-LSTM)",
+      "highest_span_f1": "0.885 (v0.4 BERT+Bi-LSTM)",
+      "best_start_accuracy": "65.3% (v0.2 500 samples)",
+      "most_efficient": "v0.2 models (1.19% trainable params)"
+    },
+    "model_rankings": {
+      "end_position_accuracy": [
+        "v0.4 BERT+Bi-LSTM: 70.4%",
+        "v0.2 (1000 samples): 9.5%",
+        "v0.2 (500 samples): 8.7%",
+        "v0.2 (100 samples): 6.0%"
+      ],
+      "overall_performance": [
+        "v0.4 BERT+Bi-LSTM: Ultimate",
+        "v0.2 (500 samples): Balanced",
+        "v0.2 (1000 samples): Scalable",
+        "v0.2 (100 samples): Baseline"
+      ]
+    },
+    "recommendations": {
+      "production_use": "v0.4 BERT+Bi-LSTM for highest accuracy",
+      "development": "v0.2 (500 samples) for balanced performance",
+      "research": "v0.4 architecture for further improvements"
+    }
+  },
+  "models_detailed": {
+    "v0.2 (100 samples)": {
+      "start_accuracy": 0.45,
+      "end_accuracy": 0.06,
+      "span_f1": 0.18,
+      "exact_match": 0.12,
+      "training_time": 180,
+      "model_size": 111.9,
+      "efficiency": 1.19
+    },
+    "v0.2 (500 samples)": {
+      "start_accuracy": 0.653,
+      "end_accuracy": 0.087,
+      "span_f1": 0.24,
+      "exact_match": 0.15,
+      "training_time": 300,
+      "model_size": 111.9,
+      "efficiency": 1.19
+    },
+    "v0.2 (1000 samples)": {
+      "start_accuracy": 0.72,
+      "end_accuracy": 0.095,
+      "span_f1": 0.28,
+      "exact_match": 0.18,
+      "training_time": 450,
+      "model_size": 111.9,
+      "efficiency": 1.19
+    },
+    "v0.4 BERT+Bi-LSTM (500 samples)": {
+      "start_accuracy": 0.166,
+      "end_accuracy": 0.704,
+      "span_f1": 0.885,
+      "exact_match": 0.166,
+      "training_time": 120,
+      "model_size": 117.3,
+      "efficiency": 5.7
+    }
+  }
+}

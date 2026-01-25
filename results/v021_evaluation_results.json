@@ -1,0 +1,14 @@
+{
+  "v021_results": {
+    "test_samples": 500,
+    "evaluation_time": 11.617715120315552,
+    "average_loss": 15.672498127770803,
+    "start_accuracy": 0.166,
+    "end_accuracy": 0.704,
+    "exact_match_accuracy": 0.166,
+    "start_f1": 0.05448834665495134,
+    "end_f1": 0.5920611189801611,
+    "span_f1": 0.8847121998849984,
+    "overall_f1": 0.32327473281755625
+  }
+}
